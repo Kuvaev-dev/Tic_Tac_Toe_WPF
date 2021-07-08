@@ -77,13 +77,9 @@ namespace TicTacToeWPF
 
         private void aboutButton_Click(object sender, EventArgs e)
         {
-            MessageBox.Show("Developed for C# course at our university"
-                + Environment.NewLine
-                + Environment.NewLine
-                + "Henning Muzynski" + Environment.NewLine
-                + "Christian Piatka" + Environment.NewLine
-                + "Patrick Spitzer" + Environment.NewLine
-                + "Johannes Idelhauser", "About");
+            MessageBox.Show("Developed for C# course at our IT-step academy."
+                + Environment.NewLine 
+                + "Nikita Kuvaev", "About");
         }
 
         private void onRestartButton_Click(object sender, EventArgs e)
